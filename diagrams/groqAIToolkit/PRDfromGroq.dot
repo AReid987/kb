@@ -1,0 +1,38 @@
+digraph KnowledgeBoardSystem {
+    bgcolor="#30006097:#000000e3"
+    gradientangle=45
+    fontname="Helvetica,Arial,sans-serif"
+    edge [color="#10be00"];
+
+    subgraph cluster_InternalSystem {
+      label="Internal System"
+      fontsize="40"
+
+      node [label="Data Proccessing" fontsize="30" shape=square fillcolor="#8c00ff80" style=filled] a2;
+      node [label="Knowledge Graph" fontsize="30" shape=circle fillcolor="#0000ff80" style=filled] a1;
+      node [label="Retrieval Engine" fontsize="30" shape=square fillcolor="#00f2ff80" style=filled] a0;
+
+      a2 -> a1 [label="Structures Data Into" fontsize="10"]
+      a0 -> a1 [label="Provides Relevant Information to" fontsize="10"]
+    }
+    // subgraph ExternalSystem {
+    //   [label="Data Sources"];
+    // }
+
+
+    // D [label="Retrieval Engine"];
+    // E [label="Knowledge Board Generator"];
+    // F [label="User Dashboard"];
+    // G [label="User Input"];
+
+
+    // A -> B [label="Ingest"];
+    // B -> C [label="Structure"];
+    // C -> D [label="Query"];
+    // D -> E [label="Relevant Info"];
+    // E -> F [label="Dynamic Content"];
+    // G -> E [label="Project Requirements"];
+    // H -> B [label="Assist Processing"];
+    // H -> D [label="Enhance Retrieval"];
+    // H -> E [label="Generate Content"];
+}

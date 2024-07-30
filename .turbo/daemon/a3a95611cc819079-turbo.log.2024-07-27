@@ -1,0 +1,58 @@
+2024-07-27T00:14:05.427253Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".anima/.gitignore"), AnchoredSystemPathBuf(".anima/cache")}
+2024-07-27T00:14:05.427266Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T00:14:18.919915Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".vscode/diff/vulsCount.txt"), AnchoredSystemPathBuf(".vscode/diff")}
+2024-07-27T00:14:18.919927Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T00:14:21.027043Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".vscode/settings.json")}
+2024-07-27T00:14:21.027070Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T00:14:46.378648Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".anima/cache/72435a92bc38745e6859e493df952cad137e0a0de428c5f35e7d984f608a4ce9")}
+2024-07-27T00:14:46.398404Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:19:01.838051Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".vscode/diff/vulsCount.txt")}
+2024-07-27T02:19:01.838338Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:19:19.934579Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("Notes.MD")}
+2024-07-27T02:19:19.934636Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:19:22.635420Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".anima/cache/72435a92bc38745e6859e493df952cad137e0a0de428c5f35e7d984f608a4ce9")}
+2024-07-27T02:19:22.635476Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:19:38.848685Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("Notes.MD")}
+2024-07-27T02:19:38.848918Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:32:35.940451Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:32:35.941457Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:33:25.946495Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:33:25.947460Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:34:29.241202Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:34:29.242196Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:35:45.136540Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen")}
+2024-07-27T02:35:45.136609Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:35:48.335412Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md"), AnchoredSystemPathBuf("graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:35:48.335430Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:40:59.992182Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:41:00.045894Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:42:13.136556Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/image"), AnchoredSystemPathBuf("fabricAIGen/image/graphRag-LLM-Knowledge-Graphs"), AnchoredSystemPathBuf("fabricAIGen/image/graphRag-LLM-Knowledge-Graphs/1722048133090.png")}
+2024-07-27T02:42:13.136687Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:42:43.336811Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/image/graphRag-LLM-Knowledge-Graphs/1722048163277.png")}
+2024-07-27T02:42:43.337394Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:43:03.238066Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/image/graphRag-LLM-Knowledge-Graphs/1722048163277.png")}
+2024-07-27T02:43:03.238115Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:43:33.542410Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:43:33.542478Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:43:56.037125Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:43:56.037224Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:44:22.067463Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:44:22.072947Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:45:14.542492Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:45:14.544303Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:45:57.096343Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:45:57.099160Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:46:09.505269Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:46:09.507816Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:46:09.791826Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:46:09.791859Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:51:08.494064Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:51:08.540916Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:51:16.473182Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:51:16.474347Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:52:02.868727Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:52:02.868751Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:52:47.667798Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:52:47.667816Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-27T02:55:14.668589Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("fabricAIGen/image/graphRag-LLM-Knowledge-Graphs/graphRag-LLM-Knowledge-Graphs.md"), AnchoredSystemPathBuf("fabricAIGen/graphRag-LLM-Knowledge-Graphs.md")}
+2024-07-27T02:55:14.669617Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))

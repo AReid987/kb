@@ -1,0 +1,18 @@
+```mermaid
+graph TD
+    CKG[Central Knowledge Graph] -->|Inform| PKG[Personal Knowledge Graphs]
+    DS[Data Sources] -->|Stream| DP[Data Processing]
+    AC[Agentic Crew] -->|Scout| DP
+    DP -->|Update| CKG
+    PKG -->|Influence| AC
+    F[Founders] -->|Interact| PKG
+    S[Startups] -->|Collaborate| PKG
+    C[Consortium] -->|Aggregate| S
+    C -->|Influence| AC
+    AA[AI Arbiter] -->|Direct| AC
+    AA -->|Weigh Inputs| C
+    HO[Human Owners] -->|Instruct| AC
+    HO -->|Guide| AA
+    PKG -->|Generate| KB[Knowledge Board]
+    KB -->|Inform| F
+```
