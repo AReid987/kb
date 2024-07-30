@@ -1,0 +1,61 @@
+[
+  {
+    "name": "code.tsx",
+    "path": "packages/ui/src/code.tsx",
+    "content": {
+      "structured": {
+        "description": "A React JSX element \"Code\" that takes two properties: children and className. The children property represents the content of the element, while the className property is an optional string that specifies a CSS class for the element. The function returns a JSX element with the specified class name and contains the provided child content.",
+        "items": [
+          {
+            "id": "bfa8e696-5dca-9989-944f-927f2ad978e0",
+            "ancestors": [],
+            "description": "Takes two properties, `children` and `className`, and returns a JSX element representing an HTML code element. It sets the class name of the code element to the provided value and wraps the provided children within it.",
+            "params": [
+              {
+                "name": "obj",
+                "default_value": null,
+                "optional": false,
+                "type_name": "object",
+                "description": "Destructured into two properties: `children` and `className`. The `children` property expects an instance of `React.ReactNode`, which can be any React element, while `className` is optional and accepts a string."
+              },
+              {
+                "name": "obj.children",
+                "default_value": null,
+                "optional": false,
+                "type_name": "React.ReactNode",
+                "description": "Required for rendering code inside JSX."
+              },
+              {
+                "name": "obj.className",
+                "default_value": null,
+                "optional": false,
+                "type_name": "string",
+                "description": "Optional."
+              }
+            ],
+            "returns": {
+              "type_name": "JSX.Element",
+              "description": "A React element representing an HTML code element (`<code>`) with potentially overridden class name and enclosed child content."
+            },
+            "usage": {
+              "language": "typescript",
+              "code": "<Code className=\"highlight\">This will be highlighted</Code>\n",
+              "description": "\nIt wraps the content with a `<code>` tag, and applies the specified class name."
+            },
+            "name": "Code",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 9,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
