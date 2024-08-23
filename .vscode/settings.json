@@ -1,3 +1,5 @@
 {
-	"editor.defaultFormatter": "biomejs.biome"
+  "editor.defaultFormatter": "foxundermoon.shell-format",
+  "WhiteSource Advise.Diff.BaseBranch": "main",
+  "workbench.colorCustomizations": {}
 }

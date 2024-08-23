@@ -1,81 +1,100 @@
-# Turborepo starter
+# Multi Agent & GraphRAG Experiments
 
-This is an official starter Turborepo.
+## Purpose
 
-## Using this example
+## Goals
 
-Run the following command:
+## Technologies
 
-```sh
-npx create-turbo@latest
-```
+* Mermaid
+* Graphviz
+* Turborepo
+* GitHub Actions
+* GPTLint
+* Husky
+* Lint-Staged
+* Devmoji
+* PNPM
+* TypeScript
+* React
+* Next.js 14
+* TailwindCSS
+* Pipx
+* Pip
+* Docker
+* Docker Compose
+* Docker Scout
+* Mend Bolt
+* Tailscale
+* Ngnix
+* Biome
+* MegaLinter
+* Fabric AI
+* Praison AI
+* Grogq AI Tools
+* Tabby
+* Open Devin
+* Aider
+* Devika
+* CrewAI
+* Maestro
+* Storm
+* Agent Zero
 
-## What's inside?
+### People
 
-This Turborepo includes the following packages/apps:
+### Project Structure
 
-### Apps and Packages
+#### KnowledgeBoard
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+![A picture of the directory stucture for this repository.](kb-fileTree.svg)
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Resources
 
-### Utilities
+### Reference
 
-This Turborepo has some additional tools already setup for you:
+Conventional Commits format via Husky, Lint-Staged, and Devmoji
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## **Devmoji Reference**
 
-### Build
+| Emoji | Devmoji Code        | Description                                                                                                             |
 
-To build all apps and packages, run the following command:
+| :---- | ------------------- | :---------------------------------------------------------------------------------------------------------------------- |
 
-```
-cd my-turborepo
-pnpm build
-```
+| ✨    | `:feat:`          | **feat:** a new feature                                                                                           |
 
-### Develop
+| 🐛    | `:fix:`           | **fix:** a bug fix                                                                                                |
 
-To develop all apps and packages, run the following command:
+| 📚    | `:docs:`          | **docs:** documentation only changes                                                                              |
 
-```
-cd my-turborepo
-pnpm dev
-```
+| 🎨    | `:style:`         | **style:** changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
 
-### Remote Caching
+| ♻️  | `:refactor:`      | **refactor:** a code change that neither fixes a bug nor adds a feature                                           |
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+| ⚡    | `:perf:`          | **perf:** a code change that improves performance                                                                 |
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+| 🚨    | `:test:`          | **test:** adding missing or correcting existing tests                                                             |
 
-```
-cd my-turborepo
-npx turbo login
-```
+| 🔧    | `:chore:`         | **chore:** changes to the build process or auxiliary tools and libraries such as documentation generation         |
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+| 🚀    | `:chore-release:` | **chore(release):** code deployment or publishing to external repositories                                        |
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+| 🔗    | `:chore-deps:`    | **chore(deps):** add or delete dependencies                                                                       |
 
-```
-npx turbo link
-```
+| 📦    | `:build:`         | **build:** changes related to build processes                                                                     |
 
-## Useful Links
+| 👷    | `:ci:`            | **ci:** updates to the continuous integration system                                                              |
 
-Learn more about the power of Turborepo:
+| 🚀    | `:release:`       | code deployment or publishing to external repositories                                                                  |
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+| 🔒    | `:security:`      | Fixing security issues.                                                                                                 |
+
+| 🌐    | `:i18n:`          | Internationalization and localization.                                                                                  |
+
+| 💥    | `:breaking:`      | Introducing breaking changes.                                                                                           |
+
+| ⚙️  | `:config:`        | Changing configuration files.                                                                                           |
+
+| ➕    | `:add:`           | add something                                                                                                           |
+
+| ➖    | `:remove:`        | remove something                                                                                                        |

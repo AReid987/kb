@@ -4,21 +4,66 @@ Temporary docs for resources used to create the projcect or to evaluate
 
 ## List of AI
 
-Purpose
+### Purpose
 
-* An attempt to capture the Open Source AI resources I come across before I forget them
+## To keep track of the interesting things
 
-Terminal AI
+Have Used
 
-* Termium
-* tlm
-* Shell-AI
-* Shell-GPT
-* aichatp
-* Fabric AI
-* Aider
-* Wasp
-* yt
-* Groq AI Toolkit
-* GitHub Copilot
-* Instrukt
+| Name            | Have Used | etc. |
+| --------------- | --------- | ---- |
+| Plandex         |           |      |
+| Shell-Wiz       |           |      |
+| Shell-ai        |           |      |
+| Shell-GPT       |           |      |
+| ai-shell        |           |      |
+| aichat          |           |      |
+| termium         |           |      |
+| tlm             |           |      |
+| Fabric Ai, yt   |           |      |
+| Aider           |           |      |
+| Wasp            |           |      |
+| Storm           |           |      |
+| Groq AI Toolkit |           |      |
+| GitHub Copilot  |           |      |
+| Instrukt        |           |      |
+| OpenDevin       |           |      |
+| crewai          |           |      |
+| Continue        |           |      |
+| Cody            |           |      |
+| Blackbox        |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+|                 |           |      |
+
+
+
+Will Use
+
+| Devika    |  |  |
+| --------- | - | - |
+| Maestro   |  |  |
+| PraisonAI |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |
+|           |  |  |

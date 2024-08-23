@@ -5,11 +5,28 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\",
-    "lint:gpt": "gptlint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint:gpt": "gptlint -c gptlint.config.mjs",
+    "prepare": "husky"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "pnpm exec --no-install devmoji -e"
+    }
+  },
+  "lint-staged": {
+    "*.{js, jsx,ts,tsx}": [
+      "eslint --quiet --fix"
+    ],
+    "*.{json,js,ts,jsx,tsx,html}": [
+      "pnpm format"
+    ]
   },
   "devDependencies": {
+    "devmoji": "^2.3.0",
     "gptlint": "^1.6.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
     "turbo": "^2.0.9",
     "typescript": "^5.5.4"

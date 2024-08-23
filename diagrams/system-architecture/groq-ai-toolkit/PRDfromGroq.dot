@@ -1,0 +1,54 @@
+This DOT code represents the Knowledge Board system graph as provided in your Mermaid syntax. Here's a breakdown of the components and their relationships:
+
+Data Sources (A) ingest data into Data Processing (B).
+Data Processing (B) structures data into the Knowledge Graph (C).
+The Knowledge Graph (C) is queried by the Retrieval Engine (D).
+The Retrieval Engine (D) provides relevant information to the Knowledge Board Generator (E).
+The Knowledge Board Generator (E) creates dynamic content for the User Dashboard (F).
+User Input (G) provides project requirements to the Knowledge Board Generator (E).
+AI Models (H) assist in various stages:
+
+Data Processing (B)
+Enhancing Retrieval (D)
+Generating Content for the Knowledge Board (E)
+
+digraph KnowledgeBoardSystem {
+    bgcolor="#300060cf:#000000e3"
+    gradientangle=45
+    fontname="Helvetica,Arial,sans-serif"
+    edge [color="#9a9aff"];
+
+    subgraph cluster_InternalSystem {
+      label="Internal System"
+      bgcolor="#100b1584"
+      fontsize="40"
+
+      node [label="Data Proccessing" fontsize="30" shape=square fillcolor="#8c00ff80" style=filled] a3;
+      node [label="Knowledge Graph" fontsize="30" shape=circle fillcolor="#0000ff80" style=filled] a2;
+      node [label="Retrieval Engine" fontsize="30" shape=square fillcolor="#00ffd580" style=filled] a1;
+      node [label="Knowledge Board Generator" fontsize="30" shape=square fillcolor="#9dff0080" style=filled] a0;
+
+      a3 -> a2 [label="Structures Data Into" fontsize="10"]
+      a1 -> a2 [label="Provides Relevant Information to" fontsize="10"]
+    }
+    // subgraph ExternalSystem {
+    //   [label="Data Sources"];
+    // }
+
+
+    // D [label="Retrieval Engine"];
+
+    // F [label="User Dashboard"];
+    // G [label="User Input"];
+
+
+    // A -> B [label="Ingest"];
+    // B -> C [label="Structure"];
+    // C -> D [label="Query"];
+    // D -> E [label="Relevant Info"];
+    // E -> F [label="Dynamic Content"];
+    // G -> E [label="Project Requirements"];
+    // H -> B [label="Assist Processing"];
+    // H -> D [label="Enhance Retrieval"];
+    // H -> E [label="Generate Content"];
+}
