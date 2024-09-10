@@ -32,20 +32,8 @@ importers:
         specifier: ^2.0.9
         version: 2.0.14
       typescript:
-        specifier: ^5.5.4
-        version: 5.5.4
-
-  packages/fabric:
-    devDependencies:
-      turbo:
-        specifier: latest
-        version: 2.0.14
-
-  packages/groq-ai-toolkit:
-    devDependencies:
-      turbo:
-        specifier: latest
-        version: 2.0.14
+        specifier: ^5.6.2
+        version: 5.6.2
 
 packages:
 
@@ -1733,8 +1721,8 @@ packages:
     resolution: {integrity: sha512-3YaYwMseXCAhBB14RXW5cRQfJQlEknS6i4C8fCfeUdS3ihG9EdccdR9kt3vP73ZdeTGmPb4bZtkDn5XMIn1DLA==}
     dev: true
 
-  /typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  /typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
